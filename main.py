@@ -1,6 +1,6 @@
-
-from repositories import file_repository as filerepo
-from domain import data_stager, job_domain
+from job_domain import createOutputFile
+from data_stager import processandCleanseData
+from file_repository import readCSVData
 from datetime import datetime
 
 
@@ -12,13 +12,13 @@ def main():
     print ("Starting Data Cleanse Program: {0}", start_datetime)  
     
 #find and read files to download
-    alldataDF = filerepo.readCSVData()
+    alldataDF = readCSVData()
     
 #if any files read above process and cleanse the data   
-    outputDF = data_stager.processandCleanseData(alldataDF)
+    outputDF = processandCleanseData(alldataDF)
     
  #output the cleansed data 
-    job_domain.createOutputFile(outputDF)
+    createOutputFile(outputDF)
     
     end_datetime = datetime.now
     print ("Data Cleanse Program Complete: {0}", end_datetime)  
