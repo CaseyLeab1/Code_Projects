@@ -4,10 +4,10 @@ each user, the website visited, and how many times that user visited that websit
 
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. 
+Guide users through getting your code up and running on their own system. 
 1.	Download the project to any local folder. Open the python project in a python code editor and ensure python is installed and running on your computer. 
 
-2.	Depends on python installed and a python code editor
+2.	Required Software:python and a python code editor
 
 
 
