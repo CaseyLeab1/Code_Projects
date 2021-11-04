@@ -13,7 +13,7 @@ Guide users through getting your code up and running on their own system.
 The AWS url changes, etc...
 
 # Build and Test
-Open the python project in a python code editor.
+Open the python main.py file in a python code editor.
 Execute the python project and a file will be created in the root directory of the project where the code was downlaoded to containing the ouptut file results
 
 # Contribute
