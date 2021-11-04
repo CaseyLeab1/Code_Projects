@@ -1,6 +1,6 @@
 # Introduction 
-This is a python program that takes a list of files available within an AWS s3 bucket and transforms the web traffic data within each CSV files so that aggregates and returns the data to 1 new CSV file containing 
-each user, the website visited, and how many times that user visited that website path
+This is a python program that takes a list of files available at a AWS s3 url and transforms the web traffic data within each CSV file so that it aggregates and returns the data to 1 new CSV file containing 
+each user, the website path visited, and how many times that user visited that website path
 
 
 # Getting Started
@@ -9,7 +9,8 @@ Guide users through getting your code up and running on their own system.
 
 2.	Required Software:python and a python code editor
 
-
+3. There is a .env file which maintains the program variables that are configurable in situations where the files have different layouts,
+The AWS url changes, etc...
 
 # Build and Test
 Open the python project in a python code editor.
